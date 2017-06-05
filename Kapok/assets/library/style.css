@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Blogger_Sans;
+    src: url(../../../assets/font/Blogger_Sans.otf);}
+
+    .fhi
+    {
+      font-family:Blogger_Sans;
+    }
+
+
+    body {
+      background-color: #FFFFFF;
+    }
+    .main.container {
+      margin-top: 2em;
+      margin-bottom: 3em;
+    }
+    span {
+      color: black;
+    }
+    .ui[class*="search selection"].dropdown {
+      border-color: grey;
+    }
+    input {
+      background: transparent;
+      border: none;
+      height: 30px;
+    }
+   .ui.vertical.stripe {
+      padding: 6em 0em 9em;
+      background: url('../images/pattern1.png');
+      background-repeat: repeat-y repeat-x;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 2em 0em;
+    }
+    .ui.right.floated.pagination{
+      margin-right:2.8em;
+    }
+    .ui.card>.image>img, .ui.cards>.card>.image>img {
+      height: 265px;
+    }
+
+     .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+      }
+
+      .video-container iframe, .video-container object, .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
